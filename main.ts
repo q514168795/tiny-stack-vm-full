@@ -1,3 +1,4 @@
+// Full ISA v1 VM: all opcodes, traps, wrapping arithmetic and edge cases handled.
 // A complete make.fun tiny-stack VM (ISA v1). Implements every rule of ISA.md, including the
 // hard cases the house baseline skips: exact 32-bit MUL, signed/unsigned divide & remainder,
 // DIVU/MODU/LTU, sign extension, shift masking, every trap code, the step/output limits,
